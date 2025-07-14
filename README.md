@@ -1,6 +1,5 @@
 ### 📁 `frontend/README.md`
 
-```markdown
 # 🖼️ Notes Manager – Frontend
 
 A responsive frontend application built with **Next.js** and **Tailwind CSS** that allows users to manage notes and bookmarks.  
@@ -18,7 +17,7 @@ Users can create, view, update, and delete notes and bookmarks, filter them by t
 
 ## 📁 Folder Structure
 
-````
+```markdown
 
 frontend/
 ├── pages/
@@ -31,8 +30,6 @@ frontend/
 └── README.md
 
 ````
-
----
 
 ## 🚀 Getting Started
 
@@ -47,12 +44,11 @@ git clone https://github.com/yourusername/notes-manager-frontend.git
 cd notes-manager-frontend
 npm install
 touch .env.local
-````
 
 ### .env.local Example
 
 ```env
-NEXT_PUBLIC_API_BASE_URL=http://localhost:5000/api
+NEXT_PUBLIC_API_BASE_URL=http://localhost:8080/api
 ```
 
 ### Start Development Server
@@ -78,20 +74,10 @@ App runs at: `http://localhost:3000`
 * Filter by tags
 * Search by keywords
 * Responsive design using Tailwind CSS
-* (Optional) Mark as favorite
+* Mark as favorite
 
 ---
 
 ## 🧑‍💻 Author
 
 Made by **Atharve Agrawal**
-
----
-
-## 📄 License
-
-MIT
-
-```
-
----
